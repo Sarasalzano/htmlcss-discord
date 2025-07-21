@@ -6,7 +6,7 @@
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* regole generali*/
+/* regole generali */
 h1 {
     font-size: 40px;
     margin-bottom: 30px;
@@ -16,17 +16,11 @@ h2 {
     font-size: 30px;
     margin-bottom: 30px;
     padding-left: 25px;
-   
 }
 
 li {
     list-style-type: none;
     margin-left: 20px;
-}
-
-.nav-items ul {
-    display: flex;
-    justify-content: center;
 }
 
 a {
@@ -38,6 +32,13 @@ a {
     background-color: lightgrey;
 }
 
+.purple-bold {
+   color: #768AD7;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+/* regole generali bottoni */
 .bottone {
     padding: 10px 15px;
     border-radius: 20px;
@@ -74,6 +75,11 @@ a {
     width: 20%;
 }
 
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+}
+
 .nav-items img {
     width: 100px;
 }
@@ -108,7 +114,6 @@ a {
 }
 
 /* jumbotron contenuto interno */
-
 #jt-container {
     /* debug
     background-color: hotpink;*/
@@ -124,7 +129,6 @@ a {
 }
 
 /* bottoni jumbotron*/
-
 #jt-download {
     border: 1px solid white;
     font-size: 14px; 
@@ -140,8 +144,6 @@ a {
 
 /*main*/
 
-/* background main*/
-
 .main-section {
     min-height: 600px;
     display: flex;
@@ -150,7 +152,6 @@ a {
 }
 
 /* contenitore principale */
-
 .main-container {
     height: 90%;
     width: 70%;
@@ -158,8 +159,7 @@ a {
     justify-content: center;
 }
 
-/* contenitori interni */
-
+/* contenitori interni main */
 .large-container {
     /* debug */
     background-color: blue;
@@ -173,7 +173,6 @@ a {
     padding-top: 30px;
 }
 
-
 .main-container p {
     line-height: 25px;
     margin-bottom: 15px;
@@ -181,9 +180,7 @@ a {
     padding-left: 25px;
 }
 
-
 /* sezione xlarge */
-
 .xlarge-section {
     min-height: 950px; 
     display: flex;
@@ -233,7 +230,6 @@ a {
 
 
 /* footer */
-
 footer {
     background-color: rgb(36, 36, 36);
 }
@@ -263,7 +259,6 @@ footer {
     background-color: cadetblue;*/
     flex-grow: 1;
     display: flex;
-    
 }
 
 .col-large {
@@ -273,19 +268,12 @@ footer {
     width: 25%; 
 }
 
-
  .footer-item-sm h3 {
     color: #768AD7;
     line-height: 25px;
     margin-bottom: 15px;
     font-size: 23px;
  }
-
-.purple-bold {
-   color: #768AD7;
-   font-weight: bold;
-   font-size: 15px;
-}
 
 
 span {
@@ -309,12 +297,10 @@ span {
 }
     
 .col-large ul {
-line-height: 30px;
+    line-height: 30px;
 }
 
 /* icone footer */
-
-
 #footer-icone {
     height: 50px;
     padding-bottom: 30px;
