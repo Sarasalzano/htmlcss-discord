@@ -61,7 +61,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
  
 .nav-items {
@@ -101,6 +100,8 @@ a {
     justify-content: center;
 }
 
+/* jumbotron contenuto interno */
+
 #jt-container {
     /* debug
     background-color: hotpink;*/
@@ -109,6 +110,13 @@ a {
     height: 60%;
     width: 40%;
 }
+
+#jt-container p {
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+/* bottoni jumbotron*/
 
 #jt-download {
     border: 1px solid white;
@@ -121,11 +129,6 @@ a {
     border: 1px solid black;
     margin-left: 10px;
     font-size: 14px;
-}
-
-#jt-container p {
-    line-height: 25px;
-    margin-bottom: 15px;
 }
 
 /*main*/
