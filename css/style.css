@@ -7,6 +7,11 @@
 }
 
 /* regole generali*/
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 li {
     list-style-type: none;
     margin-left: 20px;
@@ -24,6 +29,16 @@ a {
 
 .grey {
     background-color: lightgrey;
+}
+
+.bottone {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.bottone-sm {
+    padding: 7px 10px;
+    border-radius: 20px;   
 }
 
 /* header */
@@ -64,8 +79,6 @@ a {
 
 #login button {
     background-color: white;
-    padding: 5px 10px;
-    border-radius: 20px;
     border: 1px solid white;
 }
 
@@ -89,11 +102,30 @@ a {
 }
 
 #jt-container {
-    /* debug 
-    background-color: hotpink; */
-    height: 90%;
+    /* debug
+    background-color: hotpink;*/
+    color: white;
+    text-align: center;
+    height: 60%;
     width: 40%;
-    
+}
+
+#jt-download {
+    border: 1px solid white;
+    font-size: 14px; 
+}
+
+#jt-apri {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+#jt-container p {
+    line-height: 25px;
+    margin-bottom: 15px;
 }
 
 /*main*/
