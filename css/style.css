@@ -161,14 +161,14 @@ a {
 
 /* contenitori interni main */
 .large-container {
-    /* debug */
-    background-color: blue;
+    /* debug 
+    background-color: blue;*/
     width: 75%;
 }
 
 .small-container {
-    /* debug */
-    background-color: pink;
+    /* debug 
+    background-color: pink;*/
     width: 25%;
     padding-top: 30px;
 }
