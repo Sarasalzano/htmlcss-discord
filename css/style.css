@@ -24,7 +24,7 @@ li {
     margin-left: 20px;
 }
 
-ul {
+.nav-items ul {
     display: flex;
     justify-content: center;
 }
@@ -193,8 +193,8 @@ a {
 }
 
 .xlarge-container {
-    /* debug */
-    background-color: green; 
+    /* debug 
+    background-color: green; */
     height: 90%; 
     width: 70%;
 }
@@ -214,6 +214,7 @@ a {
     background-size: contain;
     background-position-x: center;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .xlarge-container p {
@@ -238,7 +239,8 @@ footer {
 }
 
 #contatti {
-    height: 400px;
+    height: 500px;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;       
@@ -251,33 +253,38 @@ footer {
 }
 
 .footer-item-sm {
-    /* debug */
-    background-color: salmon;
+    /* debug 
+    background-color: salmon;*/
     width: 30%;
 }
 
 .footer-item-lg {
-    /* debug */
-    background-color: cadetblue;
+    /* debug 
+    background-color: cadetblue;*/
     flex-grow: 1;
     display: flex;
+    
 }
 
 .col-large {
-   /* debug */
-    height: 100%;
-    border: 1px dotted white;
-    width: 25%;
+   /* debug 
+    border: 1px dotted white;*/
+    height: 100%;    
+    width: 25%; 
 }
+
 
  .footer-item-sm h3 {
     color: #768AD7;
     line-height: 25px;
     margin-bottom: 15px;
+    font-size: 23px;
  }
 
-h4 {
+.purple-bold {
    color: #768AD7;
+   font-weight: bold;
+   font-size: 15px;
 }
 
 
@@ -291,8 +298,6 @@ span {
     vertical-align: middle;
 }
 
-/* icone footer */
-
 .icone {
     color: white;
     margin-top: 10px;
@@ -300,13 +305,19 @@ span {
 
 .fa-brands {
     margin-right: 10px;
+    margin-top: 10px;
 }
     
+.col-large ul {
+line-height: 30px;
+}
+
+/* icone footer */
 
 
 #footer-icone {
-    height: 40px;
-    border: 1px solid lightgrey;
+    height: 50px;
+    padding-bottom: 30px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -314,12 +325,19 @@ span {
 }
 
 #barra-icone {
-    /* debug */
-    background-color: aquamarine;
-    height: 80%;
-    width: 50%;
+    /* debug 
+    background-color: aquamarine;*/
+    min-height: 80%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 2px solid lightgrey;
+    padding-top: 20px;
 }
 
+#footer-icone button {
+    background-color: #8EA2E0;
+    color: white;
+    border: 1px solid #8EA2E0;
+} 
