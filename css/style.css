@@ -1,0 +1,181 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole generali*/
+li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+/* header */
+#header-bar {
+    /* debug */
+    background-color: aquamarine;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation-bar {
+    /* debug */
+    background-color: yellow;
+    height: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ 
+.nav-items {
+    width: 20%;
+}
+
+#login {
+    text-align: right;
+}
+
+.lista {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* Jumbotron */
+#jt-background {
+    /* debug */
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jt-container {
+    /* debug */
+    background-color: hotpink;
+    height: 90%;
+    width: 40%;
+    
+}
+
+/*main*/
+
+.main-section {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    /* debug */
+    background-color: blue;
+    height: 90%;
+    width: 50%;
+    display: flex;
+}
+
+.large-container {
+    flex-grow: 1;
+}
+
+.small-container {
+    /* debug */
+    background-color: pink;
+    width: 40%;
+}
+
+/* sezione xlarge */
+.xlarge-section {
+    height: 550px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.xlarge-container {
+    /* debug */
+    background-color: green;
+    height: 90%; 
+    width: 50%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(36, 36, 36);
+}
+
+#contatti {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+}
+
+.footer-container {
+    height: 90%;
+    width: 50%;
+    display: flex;
+}
+
+.footer-item-sm {
+    /* debug */
+    background-color: salmon;
+    width: 30%;
+}
+
+.footer-item-lg {
+    /* debug */
+    background-color: cadetblue;
+    flex-grow: 1;
+    display: flex;
+}
+
+.col-large {
+    /* debug */
+    height: 100%;
+    border: 1px dotted white;
+    width: 25%;
+}
+
+/* icone footer */
+
+#footer-icone {
+    height: 40px;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+#barra-icone {
+    /* debug */
+    background-color: aquamarine;
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
