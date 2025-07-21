@@ -143,7 +143,7 @@ a {
 /* background main*/
 
 .main-section {
-    height: 600px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,19 +183,53 @@ a {
 
 
 /* sezione xlarge */
+
 .xlarge-section {
-    height: 550px; 
+    min-height: 950px; 
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .xlarge-container {
-    /* debug */
-    background-color: green;
+    /* debug 
+    background-color: green; */
     height: 90%; 
-    width: 50%;
+    width: 80%;
 }
+
+.xlarge-container img {
+    width: 80%;
+}
+
+.xlarge-container h2 {
+    margin: 30px;
+    
+}
+
+h3 {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    margin-bottom: 20px;
+}
+
+.xlarge-container p {
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* bottone main */
+
+.xlarge-container button {
+background-color: #8EA2E0;
+color: white;
+border: 1px solid #8EA2E0;
+}
+
 
 /* footer */
 footer {
@@ -229,7 +263,7 @@ footer {
 }
 
 .col-large {
-    /* debug */
+   /* debug */
     height: 100%;
     border: 1px dotted white;
     width: 25%;
