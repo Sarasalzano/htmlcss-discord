@@ -161,14 +161,14 @@ a {
 /* contenitori interni */
 
 .large-container {
-    /* debug 
-    background-color: blue;*/
+    /* debug */
+    background-color: blue;
     width: 75%;
 }
 
 .small-container {
-    /* debug 
-    background-color: pink;*/
+    /* debug */
+    background-color: pink;
     width: 25%;
     padding-top: 30px;
 }
@@ -193,8 +193,8 @@ a {
 }
 
 .xlarge-container {
-    /* debug 
-    background-color: green; */
+    /* debug */
+    background-color: green; 
     height: 90%; 
     width: 80%;
 }
@@ -208,7 +208,7 @@ a {
     
 }
 
-h3 {
+.xlarge-container h3 {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -267,6 +267,22 @@ footer {
     height: 100%;
     border: 1px dotted white;
     width: 25%;
+}
+
+ .footer-item-sm h3 {
+    color: #768AD7;
+    line-height: 25px;
+    margin-bottom: 15px;
+ }
+
+span {
+    color: white;
+    font-size: 12px;
+}
+
+#flag {
+    width: 30px;
+    vertical-align: middle;
 }
 
 /* icone footer */
