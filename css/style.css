@@ -78,17 +78,19 @@ a {
 
 /* Jumbotron */
 #jt-background {
-    /* debug */
-    background-color: blue;
-    height: 300px;
+    /* debug 
+    background-color: blue;*/
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 490px; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #jt-container {
-    /* debug */
-    background-color: hotpink;
+    /* debug 
+    background-color: hotpink; */
     height: 90%;
     width: 40%;
     
