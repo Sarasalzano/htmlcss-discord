@@ -134,7 +134,7 @@ a {
 /*main*/
 
 .main-section {
-    height: 550px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,6 +144,7 @@ a {
     height: 90%;
     width: 70%;
     display: flex;
+    justify-content: center;
 }
 
 
@@ -161,6 +162,13 @@ h2 {
     padding-left: 25px;
 
    
+}
+
+.large-container {
+    /* debug 
+    background-color: blue;*/
+    width: 75%;
+    
 }
 
 .small-container {
