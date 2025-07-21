@@ -196,7 +196,7 @@ a {
     /* debug */
     background-color: green; 
     height: 90%; 
-    width: 80%;
+    width: 70%;
 }
 
 .xlarge-container img {
@@ -225,27 +225,28 @@ a {
 /* bottone main */
 
 .xlarge-container button {
-background-color: #8EA2E0;
-color: white;
-border: 1px solid #8EA2E0;
+    background-color: #8EA2E0;
+    color: white;
+    border: 1px solid #8EA2E0;
 }
 
 
 /* footer */
+
 footer {
     background-color: rgb(36, 36, 36);
 }
 
 #contatti {
-    height: 350px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;       
 }
 
 .footer-container {
-    height: 90%;
-    width: 50%;
+    height: 80%;
+    width: 70%;
     display: flex;
 }
 
@@ -275,6 +276,11 @@ footer {
     margin-bottom: 15px;
  }
 
+h4 {
+   color: #768AD7;
+}
+
+
 span {
     color: white;
     font-size: 12px;
@@ -286,6 +292,17 @@ span {
 }
 
 /* icone footer */
+
+.icone {
+    color: white;
+    margin-top: 10px;
+}
+
+.fa-brands {
+    margin-right: 10px;
+}
+    
+
 
 #footer-icone {
     height: 40px;
