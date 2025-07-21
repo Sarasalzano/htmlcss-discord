@@ -134,28 +134,40 @@ a {
 /*main*/
 
 .main-section {
-    height: 350px;
+    height: 550px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .main-container {
-    /* debug */
-    background-color: blue;
     height: 90%;
-    width: 50%;
+    width: 70%;
     display: flex;
 }
 
-.large-container {
-    flex-grow: 1;
+
+.main-container p {
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    padding-left: 25px;
+
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+
+   
 }
 
 .small-container {
-    /* debug */
-    background-color: pink;
-    width: 40%;
+    /* debug 
+    background-color: pink;*/
+    width: 25%;
+    padding-top: 30px;
 }
 
 /* sezione xlarge */
