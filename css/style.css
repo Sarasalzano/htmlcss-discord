@@ -12,6 +12,13 @@ h1 {
     margin-bottom: 30px;
 }
 
+h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+   
+}
+
 li {
     list-style-type: none;
     margin-left: 20px;
@@ -133,12 +140,16 @@ a {
 
 /*main*/
 
+/* background main*/
+
 .main-section {
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* contenitore principale */
 
 .main-container {
     height: 90%;
@@ -147,28 +158,12 @@ a {
     justify-content: center;
 }
 
-
-.main-container p {
-    line-height: 25px;
-    margin-bottom: 15px;
-    font-size: 14px;
-    padding-left: 25px;
-
-}
-
-h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    padding-left: 25px;
-
-   
-}
+/* contenitori interni */
 
 .large-container {
     /* debug 
     background-color: blue;*/
     width: 75%;
-    
 }
 
 .small-container {
@@ -177,6 +172,15 @@ h2 {
     width: 25%;
     padding-top: 30px;
 }
+
+
+.main-container p {
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+
 
 /* sezione xlarge */
 .xlarge-section {
